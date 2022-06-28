@@ -1,0 +1,17 @@
+/* nav li a:is(:link, :active, :visited){
+    color: black;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+} */
+
+nav ul li a:is(:link, :active, :visited).active {
+    color: white;
+    background: linear-gradient(250deg, #009e96,#037c7c,#a6f7f0);
+    border-radius: 20px;
+}
+
+
+.sidebar .nav.sub-menu .nav-item .nav-link.active {
+    color: #ffffff;
+    background: transparent; 
+}
