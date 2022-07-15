@@ -1,8 +1,11 @@
 <?php
 session_start();
 
-include 'config/db.php';
-include 'functions.php';
+
+include ('https://github.com/Leord11/Hotel-Booking/blob/main/config/db.php');
+include('https://github.com/Leord11/Hotel-Booking/blob/main/functions.php');
+// include 'config/db.php';
+// include 'functions.php';
     
 if(isset($_SESSION['user_id'])){
         unset($_SESSION['user_id']);
