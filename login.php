@@ -45,7 +45,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
                         $_SESSION['user_id'] = $user_data['user_id'];
                         mysqli_free_result($result);
                         mysqli_close($conn);
-                        header("Location: user/index.php");
+                        header("Location: https://github.com/Leord11/Hotel-Booking/blob/main/user/index.php");
                         die;     
                     }                  
                     
