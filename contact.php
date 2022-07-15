@@ -2,8 +2,8 @@
 
 session_start();
 
-include ('./config/db.php');
-
+include ('https://github.com/Leord11/Hotel-Booking/blob/main/config/db.php');
+//./config/db.php
 if(isset($_SESSION['user_id'])){
     unset($_SESSION['user_id']);
 }
